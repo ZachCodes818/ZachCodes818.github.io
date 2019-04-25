@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="willie.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 
 </head>
@@ -18,9 +19,10 @@
       <div id="options" class="nav-wrapper black">
         <a href="#" id="leftLogo" class="brand-logo left">Jayson Codes</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">About</a></li>
-          <li><a href="badges.html">Contact</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+
 
         </ul>
       </div>
@@ -30,9 +32,13 @@
     <div class="parallax"><img
         src="https://upload.wikimedia.org/wikipedia/commons/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg">
     </div>
+    <div class="parallax-text">
+      <h1 class="animated slideInDown white-text">Welcome!</h1>
+      <h2 class="animated slideInUp white-text">You've come to the right place</h2>
+    </div>
   </div>
   <div class="container">
-    <H2>Professional Web Developer </H2>
+    <H2 id="about">About Me </H2>
     <p>Willie Hugh Nelson (born April 29, 1933) is an American singer, songwriter, musician, actor, producer, author,
       poet, and activist.[1] The critical success of the album Shotgun Willie (1973), combined with the critical and
       commercial success of Red Headed Stranger (1975) and Stardust (1978), made Nelson one of the most recognized
@@ -50,8 +56,7 @@
       Oregon.</p>
   </div>
   <div class="parallax-container">
-    <div class="parallax"><img
-        src="https://upload.wikimedia.org/wikipedia/commons/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg">
+    <div class="parallax"><img src="https://cdn-images-1.medium.com/max/1600/0*QUqE4WGF8_cC9bIl.jpg">
     </div>
   </div>
 
@@ -63,9 +68,13 @@
         <a href="https://google.com">
           <div class="card">
             <div class="card-image">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/515MitWp0hL.jpg">
-              <span class="card-title">Zach Sells Houses</span>
+              <img src="pics/ZachSellsHouses.png">
+          
             </div>
+
+          </div>
+          <div class="my-title">
+            Zach Sells Houses
           </div>
         </a>
       </div>
@@ -73,9 +82,12 @@
         <a href="https://google.com">
           <div class="card">
             <div class="card-image">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/515MitWp0hL.jpg">
-              <span class="card-title">Enticing Treasurez</span>
+              <img src="pics/EnticingTreasurez.png">
+             
             </div>
+          </div>
+          <div class="my-title">
+            Enticing Treasurez
           </div>
         </a>
       </div>
@@ -83,9 +95,13 @@
         <a href="https://google.com">
           <div class="card">
             <div class="card-image">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/515MitWp0hL.jpg">
-              <span class="card-title">Valley Dreads</span>
+              <img src="pics/ValleyDreads.png">
+              
             </div>
+
+          </div>
+          <div class="my-title">
+            Valley Dreads
           </div>
         </a>
       </div>
@@ -96,38 +112,42 @@
 
 
   </div>
-  <footer class="page-footer white">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="black-text">Subscribe</h5>
-          <p class="grey-text text-lighten-4">
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="email" type="email" class="validate">
-                <label for="email">Email</label>
-              </div>
-            </div>
-            <button class="btn waves-effect green darken-1" type="submit" name="action">Sign Up
-              <i class="material-icons right">send</i>
-            </button>
 
-          </p>
+  <h2 id="contact">Contact Me</h2>
+ 
+  <div class="row formBox">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="first_name" type="text" class="validate" required>
+          <label for="first_name">Name</label>
         </div>
-        <div class="col l4 offset-l2 4">
-          <h5 class="black-text">Follow Me</h5>
-          <div class="socialMedia">
-          <a href="http://facebook.com"><i class="fab fa-facebook black-text"></i></a> 
-            <a href="http://"><i class="fab fa-twitter-square black-text"></i></a>
-            <a href="http://"><i class="fab fa-instagram black-text"></i></a>
-            </div>
+        <div class="input-field col s12">
+          <input type="email" class="validate" required>
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
         </div>
       </div>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+    </form>
+  </div>
+
+
+  <footer class="page-footer white">
+
     </div>
     <div class="footer-copyright black">
       <div class="container">
         © 2019 Copyright Jayson Codes
-        <a id="pp" class="grey-text text-white right" href="#!">Privacy Policy</a>
+        <a href="http://" class="right"><i class="fab fa-instagram white-text"></i></a>
+        <a href="http://" class="right"><i class="fab fa-twitter-square white-text"></i></a>
+        <a href="http://facebook.com" class="right"><i class="fab fa-facebook white-text"></i></a>
+
 
 
       </div>
