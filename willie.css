@@ -1,0 +1,95 @@
+.parallax img{
+	width: 100%;
+}
+
+/*.formbg {
+  background-color: #3CBC8D;
+  color: white;
+}*/
+
+form{
+	background-color: white;
+}
+
+#email{
+	/* background-color: white; */
+	padding-right: 50px;
+}
+
+button{
+	font-weight: 1.5em;
+}
+
+.socialMedia i{
+	font-size: 30px;
+  text-orientation: mixed;
+  margin-right: 15px
+}
+
+#space{
+	
+	margin-left:-10px;
+}
+
+.socialMedia{
+  position: left;
+  right: 0px;
+  width: 300px;
+  
+  padding: 10px;
+}
+
+#pp{
+	margin-right: 30px;
+}
+
+#validate{
+	margin-right: 100px;
+}
+
+
+/* .page-footer{
+ display:flex;
+}
+
+.page-footer ul{
+ align-items:left;
+}
+
+.page-footer{
+  display:flex;
+}
+
+.page-footer ul{
+  justify-content:left;
+  text-align:left;
+}
+
+.page-footer ul li{
+  display:inline-block;
+ } */
+
+ .socialMedia li a {
+   margin-right: 20px
+ }
+
+ h2 {
+   text-align: center;
+ }
+
+ #leftLogo {
+   padding-left:40px;
+ }
+
+ /* #topBar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+} */
+ 
+/* #options {
+  padding-:40px;
+} */
+
