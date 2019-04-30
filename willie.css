@@ -124,6 +124,7 @@ textarea.materialize-textarea {
   height:200px;
 }
 
-.dropdown-content{
-  color: white;
+
+#leftLogo{
+margin-left: 20px;
 }
