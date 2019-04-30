@@ -16,17 +16,23 @@
   <div class="navbar-fixed">
     <nav id="topBar">
       <div id="options" class="nav-wrapper black">
-        <a href="#" id="leftLogo" class="brand-logo left">Jayson Codes</a>
+        <a href="#" id="leftLogo" class="brand-logo center">Jayson Codes</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-
-
         </ul>
       </div>
     </nav>
   </div>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
   <div class="parallax-container">
     <div class="parallax"><img
         src="https://upload.wikimedia.org/wikipedia/commons/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg">
@@ -54,7 +60,7 @@
           <div class="card">
             <div class="card-image">
               <img src="pics/ZachSellsHouses.png">
-          
+
             </div>
 
           </div>
@@ -68,7 +74,7 @@
           <div class="card">
             <div class="card-image">
               <img src="pics/EnticingTreasurez.png">
-             
+
             </div>
           </div>
           <div class="my-title">
@@ -81,7 +87,7 @@
           <div class="card">
             <div class="card-image">
               <img src="pics/ValleyDreads.png">
-              
+
             </div>
 
           </div>
@@ -99,20 +105,21 @@
   </div>
 
   <h2 id="contact">Contact Me</h2>
- 
+
   <div class="row formBox">
-    <form class="col s12">
+    <form class="col s12" action="https://formcarry.com/s/isxnPScm4CZ" method="POST" accept-charset="UTF-8">
+
       <div class="row">
         <div class="input-field col s12">
-          <input id="first_name" type="text" class="validate" required>
+          <input id="first_name" name="name" type="text" class="validate" required>
           <label for="first_name">Name</label>
         </div>
         <div class="input-field col s12">
-          <input type="email" class="validate" required>
+          <input type="email" class="validate" name="email" required>
           <label for="email">Email</label>
         </div>
         <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <textarea id="textarea1" class="materialize-textarea" name="cats"></textarea>
           <label for="textarea1">Message</label>
         </div>
       </div>
@@ -138,7 +145,19 @@
       </div>
     </div>
   </footer>
-
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Thank You</h4>
+      <p>We will respond shortly</p>
+    </div>
+    <div class="modal-footer">
+      <a href="http://www.jaysoncodes.com" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function () {
@@ -146,8 +165,7 @@
       var instances = M.Parallax.init(elems);
     });
   </script>
-  <script src="https://code.jquery.com/jquery-3.4.0.min.js"
-    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
 
 
   <script src="willie.js"></script>
