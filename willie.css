@@ -123,8 +123,13 @@ a .my-title {
 textarea.materialize-textarea {
   height:200px;
 }
-
-
 #leftLogo{
-margin-left: 20px;
+  margin-left: 20px;
+  }
+
+@media only screen and (max-width: 600px) {
+  
+#leftLogo{
+  margin: 20px;
+  }
 }
