@@ -48,10 +48,10 @@ button{
 }
 
 
-/* .page-footer{
- display:flex;
+.page-footer{
+ margin-top: 100px;
 }
-
+/* 
 .page-footer ul{
  align-items:left;
 }
@@ -81,7 +81,9 @@ button{
  h2 {
    text-align: center;
  }
-
+.dropdown-trigger{
+  margin-right: 20px;
+}
 
  /* #topBar {
   overflow: hidden;
@@ -100,7 +102,7 @@ a .my-title {
   color: black;
 }
 
-#projects, #about, #contact{
+#projects, #about {
   padding-top: 100px;
 }
 
@@ -114,4 +116,14 @@ a .my-title {
   margin-top: 150px;
   text-align: center;
 }
+#contact{
+  padding-top: 100px 
+}
 
+textarea.materialize-textarea {
+  height:200px;
+}
+
+.dropdown-content{
+  color: white;
+}

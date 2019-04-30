@@ -56,3 +56,6 @@ $('a[href*="#"]')
     });
 });
 
+$('.dropdown-trigger').dropdown({
+  coverTrigger:false
+});
