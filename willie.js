@@ -59,3 +59,23 @@ $('a[href*="#"]')
 $('.dropdown-trigger').dropdown({
   coverTrigger:false
 });
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 300) {
+    $('.btn-floating').fadeIn();
+  } else {
+    $('.btn-floating').fadeOut();
+  }
+});
+
+const scrollToTop = () => {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 8);
+  }
+};
+$('.btn-floating').click(function(){
+  scrollToTop();
+})

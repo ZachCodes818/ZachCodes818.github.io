@@ -139,3 +139,18 @@ textarea.materialize-textarea {
 .my-title {
   font-family: 'Akronim', cursive;
 }
+
+h2{
+  margin-top: 0;
+}
+
+.project-section {
+  padding-bottom: 100px;
+  
+}
+.btn-floating{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+display: none;
+}
