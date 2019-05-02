@@ -78,8 +78,9 @@ button{
   transform: scale(1.5);
 }
 
- h2 {
+ h1, h2 {
    text-align: center;
+   font-family: 'Akronim', cursive;
  }
 .dropdown-trigger{
   margin-right: 20px;
@@ -130,6 +131,11 @@ textarea.materialize-textarea {
 @media only screen and (max-width: 600px) {
   
 #leftLogo{
-  margin: 20px;
+  margin-top: 15px;
+  margin-left: 13px;
   }
+}
+
+.my-title {
+  font-family: 'Akronim', cursive;
 }
